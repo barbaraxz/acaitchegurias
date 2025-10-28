@@ -826,3 +826,66 @@ ul.location_icon li a:hover {
      position: inherit;
 }
 
+.contato {
+     background-color: #ffffff;
+     color: white;
+     font-family: 'Poppins', sans-serif;
+}
+
+.contato-container {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     align-items: flex-start;
+     gap: 40px;
+     text-align: left;
+}
+
+.info {
+     flex: 1;
+     min-width: 300px;
+}
+
+.info h2 {
+     font-size: 1.6rem;
+     margin-bottom: 20px;
+     color: #fff;
+}
+
+.info p {
+     margin: 10px 0;
+     font-size: 1rem;
+}
+
+.qrcode {
+     flex: 1;
+     min-width: 250px;
+     text-align: center;
+}
+
+.qrcode h3 {
+     font-size: 1.3rem;
+     margin-bottom: 15px;
+     color: #fff200;
+     text-align: center;
+}
+
+.qrcode img {
+     width: 220px;
+     height: 220px;
+     border-radius: 10px;
+     background: white;
+     padding: 10px;
+}
+
+.qrcode p {
+     margin-top: 10px;
+     font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+     .contato-container {
+          flex-direction: column;
+          text-align: center;
+     }
+}
